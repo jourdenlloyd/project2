@@ -26,7 +26,7 @@ import { HomeComponent } from './home/home.component';
     HomeComponent
   ],
   imports: [
-    RouterModule.forRoot([]),
+    RouterModule.forRoot([routes]),
     HomeModule,
     MatButtonModule,
     MatCardModule,
