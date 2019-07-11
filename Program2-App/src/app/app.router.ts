@@ -1,5 +1,5 @@
-import { Route } from '@angular/router';
+import { Routes } from '@angular/router';
 import { HomeRoutes } from './home/home.router'; 
 
 
-export const routes: Route [...HomeRoutes];
+export const routes: Routes [...HomeRoutes];
