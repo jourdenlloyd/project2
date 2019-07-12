@@ -13,6 +13,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CustomerFormComponent } from './customer-form/customer-form.component';
 import { HomeContainerComponent } from './home-container/home-container.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -23,7 +24,8 @@ import { HomeComponent } from './home/home.component';
     NavBarComponent,
     CustomerFormComponent,
     HomeContainerComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     RouterModule.forRoot([]),
