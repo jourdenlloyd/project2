@@ -1,0 +1,48 @@
+<div class="container-fluid">
+    <div class="row">
+       	<div class="col-lg-4">
+            <mat-card class="card">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image"></div>
+                  <mat-card-title>MY PROFILE</mat-card-title>
+                  <mat-card-subtitle>Account Information</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                  <p>
+                    Name: <br/>
+                    Address:<br/>
+                    Payment Info:<br/>
+                    Bio:
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button mat-button>ADD</button>
+                </mat-card-actions>
+            </mat-card>
+        </div>                   
+        <div class="col-lg-8">
+            <mat-card class="card">
+                <mat-card-header>
+                    <div mat-card-avatar class="example-header-image"></div>
+                        <mat-card-title>MY PETS</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                        <div class="flex-container">
+                            <div class="row">
+                                <div class="col-xs-6" id="dogContainer" *ngFor="let dog of dogs">
+                                    <h4>{{dog.name | uppercase}}</h4>
+                                    <hr>
+                                    <h4>{{dog.breed}}</h4>
+                                    <h4>{{dog.size}}</h4>
+                                    <h4>{{dog.gender}}</h4>
+                                </div>
+                            </div>
+                        </div>
+                        </mat-card-content>
+                <mat-card-actions>
+                    <button mat-button>ADD</button>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div> 
+</div> 

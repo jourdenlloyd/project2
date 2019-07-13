@@ -1,5 +1,24 @@
 
-  body {
-     margin: 0;
+  img {
+      margin: 0;
+      position: fixed;
+      max-width: 100%;
+   }
+  .blockSytles{
+
+     background-color: black;
+     color: white;
+     opacity: .5;
+     border-radius: 25px;
+     min-height: 200px;
   }
-  
+  .center{
+     font-size: 2em;
+     text-align: center;
+     position: relative;
+     top: 125px;
+     margin: auto;
+     width: 50%;
+    
+
+  }
