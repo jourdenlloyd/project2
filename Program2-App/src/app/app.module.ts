@@ -4,15 +4,15 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
-import { HomeModule } from './home/home.module';
-import { RouterModule } from '@angular/router';
-import { AppRoutingModule } from './app-routing.module';
 
+import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { CustomerFormComponent } from './customer-form/customer-form.component';
 import { HomeComponent } from './home/home.component';
-import { routes } from './app.router';
 
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { appRoutes } from './app-routing.module';
 
 
 
@@ -20,11 +20,11 @@ import { routes } from './app.router';
   declarations: [
     AppComponent,
     CustomerFormComponent,
-    HomeComponent
+    HomeComponent,
+    NavBarComponent
   ],
   imports: [
-    RouterModule.forRoot(routes),
-    HomeModule,
+    RouterModule.forRoot([appRoutes]),
     MatButtonModule,
     MatCardModule,
     MatToolbarModule,
