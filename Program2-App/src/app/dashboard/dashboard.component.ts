@@ -7,7 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
-dogs = [
+  showEdit = false;
+  showAdd = false;
+
+  dogs = [
   {
     name: 'Rowdy', 
     breed: 'German Shepard', 
@@ -21,5 +24,17 @@ dogs = [
     gender: 'F'
   }
 ];
+
+
+constructor() { }
+
+
+
+toggleShowAdd() {
+  this.showAdd = !this.showAdd;
+}
+toggleShowEdit() {
+  this.showEdit = !this.showEdit;
+}
 
 }
