@@ -8,8 +8,6 @@ import { Component } from '@angular/core';
 })
 export class DashboardComponent {
   showEdit = false;
-  showAdd = false;
-
   dogs = [
   {
     name: 'Rowdy', 
@@ -30,9 +28,7 @@ constructor() { }
 
 
 
-toggleShowAdd() {
-  this.showAdd = !this.showAdd;
-}
+
 toggleShowEdit() {
   this.showEdit = !this.showEdit;
 }

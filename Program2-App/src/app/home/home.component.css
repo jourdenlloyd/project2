@@ -13,12 +13,13 @@
      min-height: 200px;
   }
   .center{
-     font-size: 2em;
+     font-size: 1.5em;
      text-align: center;
      position: relative;
-     top: 125px;
-     margin: auto;
+     top: 40px;
+     margin: 30px;
      width: 50%;
+     padding: 25px;
     
 
   }
