@@ -24,6 +24,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { PetsComponent } from './dashboard/pets/pets.component';
 import { WalksComponent } from './dashboard/walks/walks.component';
 import { SearchForWalkersComponent } from './search-for-walkers/search-for-walkers.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 
 
@@ -40,7 +41,8 @@ import { SearchForWalkersComponent } from './search-for-walkers/search-for-walke
     DashboardComponent,
     PetsComponent,
     WalksComponent,
-    SearchForWalkersComponent
+    SearchForWalkersComponent,
+    SidenavComponent
   ],
   imports: [
     MatSidenavModule,
