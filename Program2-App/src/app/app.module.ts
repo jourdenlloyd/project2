@@ -12,6 +12,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatTableModule} from '@angular/material/table';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { HttpClientModule } from '@angular/common/http';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -43,6 +44,7 @@ import { SearchForWalkersComponent } from './search-for-walkers/search-for-walke
     SearchForWalkersComponent
   ],
   imports: [
+    HttpClientModule,
     MatSidenavModule,
     MatCheckboxModule,
     MatTableModule,
